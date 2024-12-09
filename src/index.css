@@ -1,0 +1,22 @@
+body {
+  margin: 0 auto;
+}
+.container {
+  max-width: 1400px;
+  padding: 30px;
+  margin: 0 auto;
+}
+button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  min-width: 100px;
+}
+@media screen and (max-width: 800px) {
+  button {
+    min-width: 50px;
+  }
+}
